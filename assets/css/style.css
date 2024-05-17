@@ -1,0 +1,133 @@
+/* Basic reset to remove default padding/margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #ADBC9F;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #436850;
+}
+
+/* Title Container Styling */
+.title-container {
+    height: 200px; /* Set the desired height */
+    background-color: #12372A;
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20%;
+}
+
+.title-container h1 {
+    color: white; /* Ensure the text is readable against the background */
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add text shadow for better readability */
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+h1{
+    font-family: 'cubao_font', sans-serif;
+    color: #12372A;
+}
+
+h2{
+    font-family: 'cubao_font', sans-serif;
+    color: #436850;
+}
+
+p{
+    font-family:'sunflower_font', sans-serif;
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#background {
+    background-color: #e4e4e4;
+}
+
+#about {
+    background-color: #d4d4d4;
+}
+
+#data-collection {
+    background-color: #c4c4c4;
+}
+
+@font-face {
+    font-family: 'cubao_font';
+    src: url('font_cubao.ttf');
+}
+
+@font-face {
+    font-family: 'quiapo_font';
+    src: url('font_quiapo.ttf');
+}
+
+@font-face {
+    font-family: 'kagitingan_font';
+    src: url('font_kagitingan.ttf');
+}
+
+@font-face {
+    font-family: 'baybayin_font';
+    src: url('font_baybayin.ttf');
+}
+
+@font-face {
+    font-family: 'sunflower_font';
+    src: url('font_sunflower.ttf');
+}
+
+/* Back to Top Link Styling */
+.back-to-top {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-to-top:hover {
+    background-color: #555;
+}
