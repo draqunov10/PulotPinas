@@ -76,6 +76,11 @@ p{
     font-family:'sunflower_font', sans-serif;
 }
 
+li{
+
+    font-family:'sunflower_font', sans-serif;
+}
+
 #home {
     background-color: #f4f4f4;
 }
@@ -127,7 +132,7 @@ p{
 /* Section: Background */
 
 #background {
-    background-color: #FBFADA;
+    background-color: white;
 }
 
 .background-big {
@@ -135,6 +140,7 @@ p{
     height: auto;
     padding: 50px;
     background-color: #FBFADA;
+    align-items: center;
 }
 
 .background-left {
@@ -155,13 +161,13 @@ p{
 
 .background-right img {
     width: 100%; 
-    height: auto;
+    height: 100%;
 }
 
 /* Section: About */
 
 #about {
-    background-color: #FBFADA;
+    background-color: white;
 }
 
 .about-text{
@@ -178,36 +184,83 @@ p{
 }
 
 .about-question{
-    background-color: #ADBC9F;
+    background-color: #FBFADA;
     padding: 5rem;
     text-align: center;
     align-items: center;
     font-size: 150%;
 }
 
+/* Section: Data Collection */
+
+#data-collection {
+    background-color: white;
+}
+
+
 /* Section: Results */
 
 .results-slider-container {
     overflow-x: auto; 
-    white-space: nowrap; /* Prevent slides from wrapping */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; 
     height: 100%;
 }
   
 .results-slider {
-    display: inline-flex; /* Display slides in a row */
-    /* Optionally set width to control the slide size */
+    display: inline-flex;
 }
   
 .results-slide {
-    flex: 0 0 auto; /* Prevent slides from stretching */
-    width: 75%; /* Adjust slide width as needed */
+    flex: 0 0 auto; 
+    width: 75%; 
     padding-left: 35px;
     padding-right: 35px;
 }
 
 .results-slide img {
-    width: 75%; /* Ensure images fill the entire width of the slide */
-    height: 100%; /* Ensure images fill the entire height of the slide */
-    object-fit: cover; /* Cover the entire slide with the image */
+    width: 75%; 
+    height: 100%; 
+    object-fit: cover; 
 }
+
+.results-question{
+    text-align: center;
+    font-family: 'sunflower_font', sans-serif;
+    font-size: 150%;
+}
+
+/* Section: Team */
+
+#data-collection {
+    background-color: white;
+}
+
+.team-container{
+    display: flex;
+    height: auto;
+}
+
+.team-member{
+    background-color: #FBFADA;
+    width: 33%;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    padding: 10px;
+    font-family: 'sunflower_font', sans-serif;
+}
+
+.team-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-pic {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+
