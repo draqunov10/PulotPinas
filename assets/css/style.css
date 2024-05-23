@@ -199,6 +199,7 @@ li {
 /* Section: Results */
 
 .results-slider-container {
+  background-color: #adbc9f;
   display: flex;
   flex-direction: column;
   align-items: center;
