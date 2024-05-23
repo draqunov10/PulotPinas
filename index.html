@@ -201,40 +201,12 @@
             </h3>
     
             <div class="results-slider-container">
-                <div class="results-slider">
-                    <div class="results-slide">
-                        <img src="2012.png" alt="2012">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2013.png" alt="2013">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2014.png" alt="2014">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2015.png" alt="2015">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2016.png" alt="2016">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2017.png" alt="2017">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2018.png" alt="2018">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2019.png" alt="2019">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2020.png" alt="2020">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2021.png" alt="2021">
-                    </div>
-                    <div class="results-slide">
-                        <img src="2022.png" alt="2022">
-                    </div>
+                <div class="result-slide">
+                    <img id="year-image" src="2012.png">
+                    <img id="next-year-image" class="hidden" src=""> <!-- For animation -->
+                </div>
+                <div class="slider-container">
+                    <input type="range" id="slider" min="2012" max="2022" value="2012" oninput="updateImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
                 </div>
             </div>
         </div>
@@ -300,5 +272,6 @@
 
     </section>
 
+    <script src="js/script.js"></script>
 </body>
 </html>

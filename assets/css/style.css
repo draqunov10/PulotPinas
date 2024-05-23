@@ -1,266 +1,280 @@
 /* Basic reset to remove default padding/margins */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 /* Navigation Bar Styling */
 nav {
-    background-color: #ADBC9F;
-    color: black;
+  background-color: #adbc9f;
+  color: black;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+  display: inline;
+  margin-right: 10px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
 }
 
 nav ul li a:hover {
-    background-color: #436850;
+  background-color: #436850;
 }
 
 /* Title Container Styling */
 .title-container {
-    height: 200px; /* Set the desired height */
-    background-color: #12372A;
-    background-size: cover; /* Ensure the image covers the entire container */
-    background-position: center; /* Center the image */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 20%;
+  height: 200px; /* Set the desired height */
+  background-color: #12372a;
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20%;
 }
 
 .title-container h1 {
-    color: white; /* Ensure the text is readable against the background */
-    font-size: 2.5rem; /* Adjust the font size as needed */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add text shadow for better readability */
+  color: white; /* Ensure the text is readable against the background */
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add text shadow for better readability */
 }
 
 /* Section Styling */
 section {
-    padding: 20px;
-    margin: 10px 0;
+  padding: 20px;
+  margin: 10px 0;
 }
 
-h1{
-    font-family: 'cubao_font', sans-serif;
-    color: #12372A;
+h1 {
+  font-family: "cubao_font", sans-serif;
+  color: #12372a;
 }
 
-h2{
-    font-family: 'cubao_font', sans-serif;
-    color: #436850;
+h2 {
+  font-family: "cubao_font", sans-serif;
+  color: #436850;
 }
 
-p{
-    font-family:'sunflower_font', sans-serif;
+p {
+  font-family: "sunflower_font", sans-serif;
 }
 
-li{
-
-    font-family:'sunflower_font', sans-serif;
+li {
+  font-family: "sunflower_font", sans-serif;
 }
 
 #home {
-    background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 #data-collection {
-    background-color: #c4c4c4;
+  background-color: #c4c4c4;
 }
 
 @font-face {
-    font-family: 'cubao_font';
-    src: url('font_cubao.ttf');
+  font-family: "cubao_font";
+  src: url("font_cubao.ttf");
 }
 
 @font-face {
-    font-family: 'quiapo_font';
-    src: url('font_quiapo.ttf');
+  font-family: "quiapo_font";
+  src: url("font_quiapo.ttf");
 }
 
 @font-face {
-    font-family: 'kagitingan_font';
-    src: url('font_kagitingan.ttf');
+  font-family: "kagitingan_font";
+  src: url("font_kagitingan.ttf");
 }
 
 @font-face {
-    font-family: 'baybayin_font';
-    src: url('baybayin_font.ttf');
+  font-family: "baybayin_font";
+  src: url("baybayin_font.ttf");
 }
 
 @font-face {
-    font-family: 'sunflower_font';
-    src: url('font_sunflower.ttf');
+  font-family: "sunflower_font";
+  src: url("font_sunflower.ttf");
 }
 
 /* Back to Top Link Styling */
 .back-to-top {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 15px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .back-to-top:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 /* Section: Background */
 
 #background {
-    background-color: white;
+  background-color: white;
 }
 
 .background-big {
-    display: flex;
-    height: auto;
-    padding: 50px;
-    background-color: #FBFADA;
-    align-items: center;
+  display: flex;
+  height: auto;
+  padding: 50px;
+  background-color: #fbfada;
+  align-items: center;
 }
 
 .background-left {
-    width: 50%;
-    height: 50em;
-    background-color: #FBFADA;
-    padding: 1rem;
-    align-items: center;
+  width: 50%;
+  height: 50em;
+  background-color: #fbfada;
+  padding: 1rem;
+  align-items: center;
 }
 
 .background-right {
-    width: 50%;
-    height: 50em;
-    padding: 1rem;
-    background-color: #FBFADA;
-    align-items: center;
+  width: 50%;
+  height: 50em;
+  padding: 1rem;
+  background-color: #fbfada;
+  align-items: center;
 }
 
 .background-right img {
-    width: 100%; 
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* Section: About */
 
 #about {
-    background-color: white;
+  background-color: white;
 }
 
-.about-text{
-    text-align: center;
-    padding: 25px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.about-text {
+  text-align: center;
+  padding: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.about-questions{
-    display: flex;
-    height: auto;
+.about-questions {
+  display: flex;
+  height: auto;
 }
 
-.about-question{
-    background-color: #FBFADA;
-    padding: 5rem;
-    text-align: center;
-    align-items: center;
-    font-size: 150%;
+.about-question {
+  background-color: #fbfada;
+  padding: 5rem;
+  text-align: center;
+  align-items: center;
+  font-size: 150%;
 }
 
 /* Section: Data Collection */
 
 #data-collection {
-    background-color: white;
+  background-color: white;
 }
-
 
 /* Section: Results */
 
 .results-slider-container {
-    overflow-x: auto; 
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch; 
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* -webkit-overflow-scrolling: touch; */
+  height: 100%;
 }
-  
+
 .results-slider {
-    display: inline-flex;
+  display: inline-flex;
 }
-  
+
 .results-slide {
-    flex: 0 0 auto; 
-    width: 75%; 
-    padding-left: 35px;
-    padding-right: 35px;
+  flex: 0 0 auto;
+  width: 75%;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .results-slide img {
-    width: 75%; 
-    height: 100%; 
-    object-fit: cover; 
+  width: 75%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.results-question{
-    text-align: center;
-    font-family: 'sunflower_font', sans-serif;
-    font-size: 150%;
+.results-question {
+  text-align: center;
+  font-family: "sunflower_font", sans-serif;
+  font-size: 150%;
+}
+
+#slider {
+  width: 75em; /* Or any other percentage or fixed value */
+}
+
+#year-display {
+  position: absolute;
+  display: none;
+  /* Add any other styles you want for the year display here */
+}
+
+.hidden {
+  display: none;
 }
 
 /* Section: Team */
 
 #data-collection {
-    background-color: white;
+  background-color: white;
 }
 
-.team-container{
-    display: flex;
-    height: auto;
+.team-container {
+  display: flex;
+  height: auto;
 }
 
-.team-member{
-    background-color: #FBFADA;
-    width: 33%;
-    text-align: center;
-    align-items: center;
-    font-size: 150%;
-    padding: 10px;
-    font-family: 'sunflower_font', sans-serif;
+.team-member {
+  background-color: #fbfada;
+  width: 33%;
+  text-align: center;
+  align-items: center;
+  font-size: 150%;
+  padding: 10px;
+  font-family: "sunflower_font", sans-serif;
 }
 
 .team-pic-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-pic {
-    width: 200px; 
-    height: 200px; 
-    border-radius: 50%; 
-    object-fit: cover; 
-  }
-
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
