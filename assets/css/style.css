@@ -80,14 +80,6 @@ p{
     background-color: #f4f4f4;
 }
 
-#background {
-    background-color: #e4e4e4;
-}
-
-#about {
-    background-color: #d4d4d4;
-}
-
 #data-collection {
     background-color: #c4c4c4;
 }
@@ -109,7 +101,7 @@ p{
 
 @font-face {
     font-family: 'baybayin_font';
-    src: url('font_baybayin.ttf');
+    src: url('baybayin_font.ttf');
 }
 
 @font-face {
@@ -130,4 +122,92 @@ p{
 
 .back-to-top:hover {
     background-color: #555;
+}
+
+/* Section: Background */
+
+#background {
+    background-color: #FBFADA;
+}
+
+.background-big {
+    display: flex;
+    height: auto;
+    padding: 50px;
+    background-color: #FBFADA;
+}
+
+.background-left {
+    width: 50%;
+    height: 50em;
+    background-color: #FBFADA;
+    padding: 1rem;
+    align-items: center;
+}
+
+.background-right {
+    width: 50%;
+    height: 50em;
+    padding: 1rem;
+    background-color: #FBFADA;
+    align-items: center;
+}
+
+.background-right img {
+    width: 100%; 
+    height: auto;
+}
+
+/* Section: About */
+
+#about {
+    background-color: #FBFADA;
+}
+
+.about-text{
+    text-align: center;
+    padding: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-questions{
+    display: flex;
+    height: auto;
+}
+
+.about-question{
+    background-color: #ADBC9F;
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+}
+
+/* Section: Results */
+
+.results-slider-container {
+    overflow-x: auto; 
+    white-space: nowrap; /* Prevent slides from wrapping */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    height: 100%;
+}
+  
+.results-slider {
+    display: inline-flex; /* Display slides in a row */
+    /* Optionally set width to control the slide size */
+}
+  
+.results-slide {
+    flex: 0 0 auto; /* Prevent slides from stretching */
+    width: 75%; /* Adjust slide width as needed */
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.results-slide img {
+    width: 75%; /* Ensure images fill the entire width of the slide */
+    height: 100%; /* Ensure images fill the entire height of the slide */
+    object-fit: cover; /* Cover the entire slide with the image */
 }
