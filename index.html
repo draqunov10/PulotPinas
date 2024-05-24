@@ -123,81 +123,129 @@
    
     <hr>
     
-    <section id="data-collection">
-        <h2 style="color: #12372A; font-size: 50px; text-align: center; background-color: #ADBC9F">
+    <section id="data-collection" style="background-color: #ADBC9F;">
+        <!-- style="color: #12372A; font-size: 50px; text-align: center; background-color: #ADBC9F" -->
+        <h2 style="font-size: 40px; text-align: center;">
             Data Collection Process
         </h2>
     
-        <h3>
+        <h3 class="collection-step style1">
             Dataset Source
         </h3>
     
-        <p>
-            The primary source for our dataset is provided by the <i>Environmental Management Bureau</i> from the <i>Department of Environment Resources of the Republic of the Philippines</i>. 
-            The organization continously monitors the establishment of new registered Hazardous Waste Generators as well as the maintenance of previously registered HWGs and makes the information readily available through their official webpage. 
-        </p>    
-        <p>
-            Moreover, the history of updates made to the dataset over the span of the dates June 17, 2020 and the present date is readily available. Modifying the range results in the filtering of the whole dataset in such a way that only those whose date of approval lies between the range reflect on the current presented dataset.  Here, the No. of HWGs by Region is also provided via bar graph. Such data can also be manipulated by the date approved range feature. 
-        </p>
-        
-        <p>
-            Additionally, the organization monitors the amount of hazardous waste generated on each region. 
-            The dataset provided started from the year 2012 up to the year 2022. 
-            The said dataset contains a comprehensive detail on the amount (in tons) and the type of hazardous wastes produced in the Philippines.
-        </p>
-        <p>
-            In relation to the amount of hazardous waste generated source, the team also acquired a Philippine Standard Geographic Code (PSGC) vector maps (shapefiles) to visualize the data mentioned before. 
-            There are different levels of vector maps available, from the national level down to the barangay level. 
-            This vector map was sourced from public data and updated annually with the changes published by the Philippine Statistics Authority (PSA).
-        </p>
-        <strong>Primary Dataset: </strong>
-        <div class="dataset-source-links">
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiMzQyMmRjZjAtYjNkMi00Y2Q0LWI0YTItNDkzMTQ3YTA1NGFhIiwidCI6ImY2ZjRhNjkyLTQzYjMtNDMzYi05MmIyLTY1YzRlNmNjZDkyMCIsImMiOjEwfQ%3D%3D">Registered Hazardous Waste Generators (HWGs)</a>
-            <a href="https://docs.google.com/spreadsheets/d/1HUo2IeT1l_GUs4Ce0kV82KOMPFk6-mtI/edit#gid=1869164838">Amount of Generated Hazardous Waste by Region and by Type, 2012 to 2022</a>
-            <a href="https://github.com/altcoder/philippines-psgc-shapefiles/tree/main">Amount of Generated Hazardous Waste by Region and by Type, 2012 to 2022</a>
+        <div class="step-infos style1">
+            <div class="step-info">
+                <p>
+                    The primary source for our dataset is provided by the <i>Environmental Management Bureau</i> from the <i>Department of Environment Resources of the Republic of the Philippines</i>. 
+                    The organization continously monitors the establishment of new registered Hazardous Waste Generators as well as the maintenance of previously registered HWGs and makes the information readily available through their official webpage. 
+                </p>    
+                <p>
+                    Moreover, the history of updates made to the dataset over the span of the dates June 17, 2020 and the present date is readily available. Modifying the range results in the filtering of the whole dataset in such a way that only those whose date of approval lies between the range reflect on the current presented dataset.  Here, the No. of HWGs by Region is also provided via bar graph. Such data can also be manipulated by the date approved range feature. 
+                </p>
+
+                <strong>Check it out: </strong>
+                <div class="dataset-source-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzQyMmRjZjAtYjNkMi00Y2Q0LWI0YTItNDkzMTQ3YTA1NGFhIiwidCI6ImY2ZjRhNjkyLTQzYjMtNDMzYi05MmIyLTY1YzRlNmNjZDkyMCIsImMiOjEwfQ%3D%3D">Registered Hazardous Waste Generators (HWGs)
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="step-info">
+                <p>
+                    Additionally, the organization monitors the amount of hazardous waste generated on each region. 
+                    The dataset provided started from the year 2012 up to the year 2022. 
+                    The said dataset contains a comprehensive detail on the amount (in tons) and the type of hazardous wastes produced in the Philippines.
+                </p>
+                <p>
+                    In relation to the amount of hazardous waste generated source, the team also acquired a Philippine Standard Geographic Code (PSGC) vector maps (shapefiles) to visualize the data mentioned before. 
+                    There are different levels of vector maps available, from the national level down to the barangay level. 
+                    This vector map was sourced from public data and updated annually with the changes published by the Philippine Statistics Authority (PSA).
+                </p>
+
+                <strong>Check it out: </strong>
+                <div class="dataset-source-links">
+                    <a href="https://docs.google.com/spreadsheets/d/1HUo2IeT1l_GUs4Ce0kV82KOMPFk6-mtI/edit#gid=1869164838">Amount of Generated Hazardous Waste
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/altcoder/philippines-psgc-shapefiles/tree/main">PSGC Administrative Boundaries Shapefiles
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     
-        <h3>
+        <h3 class="collection-step style2">
             Scope and Limitations
         </h3>
-        <p>    
-            As of April 17, 2024, there are over 33,000 observations from 2020 to 2024 on the HWGs dataset. The group interacted with the Microsoft Power BI interface of the source and set the range of date approved to be between January 1, 2022 to December 31, 2022. Furthermore, the sample population for this research is limited to the NCR region. 
-        </p>
-        <p>
-            Therefore, the study considers only those HWGs whose operations are approved within the year 2022. Note that the working dataset does not correspond to all existing HWGs in the Philippines in the set range. Also, only HWGs within the NCR region will be included in the study. Note that findings made in this study does not necessarily reflect the trends of the whole Philippines.
-        </p>
-        
-        <p>
-            As for the rest of the sources, the team utilized the total amount of hazardous waste generated by region and by type from 2012 to 2022 as the focus of the study is to analyze the waste on each region over the years. 
-            Unfortunately, there are no records of the hazardous waste generated in Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) all throughout the years. The team will not be able to include this region in the analysis. 
-            Lastly, The data of the geometry (vector map) of the Philippines on Regional level was used to visualize the data on the map.
-        </p>
 
-        <h3>
+        <div class="step-infos style2">
+            <div class="step-info">
+                <p>    
+                    As of April 17, 2024, there are over 33,000 observations from 2020 to 2024 on the HWGs dataset. The group interacted with the Microsoft Power BI interface of the source and set the range of date approved to be between January 1, 2022 to December 31, 2022. Furthermore, the sample population for this research is limited to the NCR region. 
+                </p>
+                <p>
+                    Therefore, the study considers only those HWGs whose operations are approved within the year 2022. Note that the working dataset does not correspond to all existing HWGs in the Philippines in the set range. Also, only HWGs within the NCR region will be included in the study. Note that findings made in this study does not necessarily reflect the trends of the whole Philippines.
+                </p>
+            </div>
+            
+            
+            <div class="step-info">
+                <p>
+                    As for the rest of the sources, the team utilized the total amount of hazardous waste generated by region and by type from 2012 to 2022 as the focus of the study is to analyze the waste on each region over the years. 
+                    Unfortunately, there are no records of the hazardous waste generated in Bangsamoro Autonomous Region in Muslim Mindanao (BARMM) all throughout the years. The team will not be able to include this region in the analysis. 
+                    Lastly, The data of the geometry (vector map) of the Philippines on Regional level was used to visualize the data on the map.
+                </p>
+            </div>
+        </div>
+        
+
+        <h3 class="collection-step style1">
             Data Extraction and Pre-processing
         </h3>
-        <p>
-            The group manually collected and collated the information on PowerBI interface to a Google Sheets file for ease of manipulation during exploratory analysis later on. 
-            With the stated limitations, the total observations totaled to 7,582 HWGs. 
-            During the encoding of the data, certain records had empty values. The team filled these in depending on Nature of Business and Details. 
-            Similarly, machine learning AI is planned to be applied to analyze and further segregate the observations according to their accompanying attributes to account for differing characters. 
-            Categorization, in this manner, is based on the presence of shared words and similar themes. As for the second
-        </p>
 
-        <p>
-            Since the amuont of waste dataset is in the form of a Google Sheets file, simple extraction was made by copying the total amount columns on each region, repeated for every year.
-            This creates a datasheet containing a row for each region, filled with total amount of waste generated for each year in their correspondong columns.
-            For it to be visualized, we only needed to download the regional level shapefile. 
-            Note that a vector map cannot be directly open unlike sheets. A processing libary called geopandas was applied.
-        </p>
-    
-        <strong>Produced Dataset: </strong>
-        <a href="https://docs.google.com/spreadsheets/d/1Zim4jwcWGcq3BswzAZ-pTNuv3F4qlLpRfEyE9IWEqmc/edit#gid=1450335543">Registered Hazardous Waste Generators (HWGs)</a>
-        <a href="https://docs.google.com/spreadsheets/d/163ne5kEKpyu4ZYqJIRKrjVLzx3pfavh4/edit?usp=sharing&ouid=114774786345626671726&rtpof=true&sd=true">Total Amount of Generated Hazardous Waste by Region and by Type, 2012 to 2022</a>
-        <a href="https://github.com/altcoder/philippines-psgc-shapefiles/raw/main/dist/PH_Adm1_Regions.shp.zip?download=">Philippines Regional Level Shapefile (Download)</a>
+        <div class="step-infos style1">
+            <div class="step-info">
+                <p>
+                    The group manually collected and collated the information on PowerBI interface to a Google Sheets file for ease of manipulation during exploratory analysis later on. 
+                    With the stated limitations, the total observations totaled to 7,582 HWGs. 
+                    During the encoding of the data, certain records had empty values. The team filled these in depending on Nature of Business and Details. 
+                    Similarly, machine learning AI is planned to be applied to analyze and further segregate the observations according to their accompanying attributes to account for differing characters. 
+                    Categorization, in this manner, is based on the presence of shared words and similar themes. As for the second
+                </p>
+                <strong>Check it out: </strong>
+                <div class="dataset-source-links">
+                    <a href="https://docs.google.com/spreadsheets/d/1Zim4jwcWGcq3BswzAZ-pTNuv3F4qlLpRfEyE9IWEqmc/edit#gid=1450335543">Registered Hazardous Waste Generators (HWGs)</a>
+                </div>
+            </div>
+            
+            <div class="step-info">
+                <p>
+                    Since the amuont of waste dataset is in the form of a Google Sheets file, simple extraction was made by copying the total amount columns on each region, repeated for every year.
+                    This creates a datasheet containing a row for each region, filled with total amount of waste generated for each year in their correspondong columns.
+                    For it to be visualized, we only needed to download the regional level shapefile. 
+                    Note that a vector map cannot be directly open unlike sheets. A processing libary called geopandas was applied.
+                </p>
+                <strong>Produced Dataset: </strong>
+                <div class="dataset-source-links">
+                    <a href="https://docs.google.com/spreadsheets/d/163ne5kEKpyu4ZYqJIRKrjVLzx3pfavh4/edit?usp=sharing&ouid=114774786345626671726&rtpof=true&sd=true">Total Amount of Generated Hazardous Waste by Region and by Type, 2012 to 2022</a>
+                    <a href="https://github.com/altcoder/philippines-psgc-shapefiles/raw/main/dist/PH_Adm1_Regions.shp.zip?download=">Philippines Regional Level Shapefile (Download)</a>
+                </div>
+            </div>
+        </div>
         
     
-        <h3>
+    
+        <h3 class="collection-step style2">
             Description of Dataset
         </h3>
         <p>
@@ -215,24 +263,7 @@
         </p>
 
         <p>
-            The HWGs dataset shows the directory of all the existing HWGs in the Philippines. Each HWG has the following attributes: 
-        </p>
-        <ul>
-            <li>Regions: pertains to the region in which the location of the hazardous waste it belongs to</li>
-            <li>2012: Total amount of hazardous waste in the year 2012 in tons</li>
-            <li>2013: Total amount of hazardous waste in the year 2013 in tons</li>
-            <li>2014: Total amount of hazardous waste in the year 2014 in tons</li>
-            <li>2015: Total amount of hazardous waste in the year 2015 in tons</li>
-            <li>2016: Total amount of hazardous waste in the year 2016 in tons</li>
-            <li>2017: Total amount of hazardous waste in the year 2017 in tons</li>
-            <li>2018: Total amount of hazardous waste in the year 2018 in tons</li>
-            <li>2019: Total amount of hazardous waste in the year 2019 in tons</li>
-            <li>2020: Total amount of hazardous waste in the year 2020 in tons</li>
-            <li>2021: Total amount of hazardous waste in the year 2021 in tons</li>
-            <li>2022: Total amount of hazardous waste in the year 2022 in tons</li>
-        </ul>
-        <p>
-            Considering the scope of this study, the dataset size is set to be about 7582 HWGs whose dates of approval lie within the range of January 1, 2022 to December 31, 2022. 
+            The total waste dataset shows the amounting waste of each region for 2012 to 2022.
         </p>
     
     </section>

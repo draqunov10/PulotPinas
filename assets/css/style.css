@@ -182,19 +182,115 @@ li {
   height: auto;
 }
 
-.about-question{
-    background-color: #FBFADA;
-    padding: 5rem;
-    text-align: center;
-    align-items: center;
-    font-size: 150%;
-    width: 50%;
+.about-question {
+  background-color: #fbfada;
+  padding: 5rem;
+  text-align: center;
+  align-items: center;
+  font-size: 150%;
+  width: 50%;
 }
 
 /* Section: Data Collection */
+.dataset-source-links a {
+  display: block;
+  text-decoration: none;
+  color: #436850; /* Text color */
+  border: 2px solid #436850; /* Border color and thickness */
+  border-radius: 10px; /* Corner roundness */
+  padding: 5px; /* Space between text and border */
+  margin: 7px; /* Space between links */
+}
+
+.dataset-source-links a:hover {
+  color: #12372a; /* Color when hovered */
+  border-color: #12372a; /* Border color when hovered */
+}
 
 #data-collection {
   background-color: white;
+}
+
+#data-collection p {
+  text-align: justify;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  padding: 10px;
+}
+
+.collection-step {
+  font-size: 140%;
+  font-weight: bold;
+  margin-left: 4em;
+  margin-right: 4em;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+.collection-step.style1 {
+  background-color: #12372a;
+  color: #fbfada;
+  font-size: 140%;
+}
+
+.collection-step.style2 {
+  background-color: #fbfada;
+  color: #12372a;
+  font-size: 140%;
+}
+
+.step-infos {
+  display: flex;
+  height: auto;
+  position: relative;
+}
+
+.step-infos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.step-infos::after {
+  content: "";
+  position: absolute;
+  left: 49.4%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.step-infos.style1::before {
+  border-left: 4px solid #fbfada;
+}
+.step-infos.style2::before {
+  border-left: 4px solid #12372a;
+}
+.step-infos.style1::after {
+  background-color: #fbfada;
+}
+.step-infos.style2::after {
+  background-color: #12372a;
+}
+
+.step-infos::after {
+  top: -5px; /* Half of the width and height */
+}
+
+.step-infos::before {
+  bottom: -5px; /* Half of the width and height */
+}
+
+.step-info {
+  /* background-color: #fbfada; */
+  padding: 3rem;
+  text-align: center;
+  align-items: center;
+  font-size: 120%;
+  width: 50%;
 }
 
 /* Section: Results */
@@ -234,7 +330,7 @@ li {
   padding: 1%;
 }
 
-.results-hypo-big-container{
+.results-hypo-big-container {
   display: flex;
   height: auto;
   align-items: center;
@@ -246,43 +342,42 @@ li {
   width: 25%;
   align-items: center;
   text-align: center;
-  background-color: #FBFADA;
+  background-color: #fbfada;
 }
 
-.results-hypo-desc-container{
+.results-hypo-desc-container {
   width: 75%;
   text-align: justify;
   padding-left: 2%;
   padding-right: 2%;
 }
 
-.results-hypo{
-  font-family: 'cubao_font', sans-serif;
+.results-hypo {
+  font-family: "cubao_font", sans-serif;
   align-items: center;
   font-size: 250%;
 }
 
-.results-hypo-text{
+.results-hypo-text {
   padding: 30px;
 }
 
-.results-hypo-result{
+.results-hypo-result {
   font-size: 150%;
-  font-family: 'cubao_font', sans-serif;
+  font-family: "cubao_font", sans-serif;
 }
 
-.results-p{
+.results-p {
   padding-bottom: 1%;
 }
 
 #slider {
-  width: 75em; /* Or any other percentage or fixed value */
+  width: 75em;
 }
 
 #year-display {
   position: absolute;
   display: none;
-  /* Add any other styles you want for the year display here */
 }
 
 .hidden {
