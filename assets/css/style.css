@@ -182,14 +182,6 @@ li {
   height: auto;
 }
 
-<<<<<<< Updated upstream
-.about-question {
-  background-color: #fbfada;
-  padding: 5rem;
-  text-align: center;
-  align-items: center;
-  font-size: 150%;
-=======
 .about-question{
     background-color: #FBFADA;
     padding: 5rem;
@@ -197,7 +189,6 @@ li {
     align-items: center;
     font-size: 150%;
     width: 50%;
->>>>>>> Stashed changes
 }
 
 /* Section: Data Collection */
@@ -240,7 +231,46 @@ li {
   text-align: center;
   font-family: "sunflower_font", sans-serif;
   font-size: 150%;
+  padding: 1%;
 }
+
+.results-hypo-big-container{
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+
+.results-hypo-conc-container {
+  height: auto;
+  width: 25%;
+  align-items: center;
+  text-align: center;
+  background-color: #FBFADA;
+}
+
+.results-hypo-desc-container{
+  width: 75%;
+  text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.results-hypo{
+  font-family: 'cubao_font', sans-serif;
+  align-items: center;
+  font-size: 250%;
+}
+
+.results-hypo-text{
+  padding: 30px;
+}
+
+.results-hypo-result{
+  font-size: 150%;
+  font-family: 'cubao_font', sans-serif;
+}
+
+
 
 #slider {
   width: 75em; /* Or any other percentage or fixed value */
@@ -267,12 +297,19 @@ li {
   height: auto;
 }
 
+.team-desc {
+  text-align: center;
+  padding: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .team-member {
   background-color: #fbfada;
   width: 33%;
   text-align: center;
   align-items: center;
-  font-size: 150%;
   padding: 10px;
   font-family: "sunflower_font", sans-serif;
 }
@@ -281,6 +318,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-inline: 15em;
 }
 
 .team-pic {
