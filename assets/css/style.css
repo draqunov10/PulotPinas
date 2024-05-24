@@ -341,17 +341,42 @@ li {
   background-color: #fbfada;
 }
 
-.results-hypo-desc-container {
+.results-hypo-desc-container-1 {
   width: 75%;
   text-align: justify;
   padding-left: 2%;
   padding-right: 2%;
 }
 
+.results-hypo-desc-container-2 {
+  width: 50%;
+  text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.results-hypo-desc-container-2 img {
+  width: 90%;
+  text-align: center;
+}
+
+.results-hypo-desc-container-2 {
+  width: 50%;
+  text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.results-hypo-desc-container-2 img {
+  width: 90%;
+  text-align: center;
+}
+
 .results-hypo {
   font-family: "cubao_font", sans-serif;
   align-items: center;
   font-size: 250%;
+  color: #12372a;
 }
 
 .results-hypo-text {
@@ -360,6 +385,8 @@ li {
 
 .results-hypo-result {
   font-size: 150%;
+  font-family: "cubao_font", sans-serif;
+  color: #12372a;
   font-family: "cubao_font", sans-serif;
 }
 
