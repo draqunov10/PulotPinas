@@ -210,7 +210,8 @@ li {
 }
 
 .dataset-source-links a:active {
-  background-color: #fbfada; /* Background color when clicked */
+  background-color: #12372a;
+  color: #fbfada;
 }
 
 .dataset-source-links svg {
@@ -231,7 +232,7 @@ li {
   font-weight: bold;
   margin-left: 4em;
   margin-right: 4em;
-  border-radius: 20px;
+
   text-align: center;
   padding: 15px;
 }
@@ -243,9 +244,26 @@ li {
 }
 
 .collection-step.style2 {
-  background-color: #fbfada;
-  color: #12372a;
+  background-color: #436850;
+  color: #fbfada;
   font-size: 140%;
+}
+
+.collection-step.upper {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.collection-step.lower {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.step-infos.style1::before {
+  border-left: 4px solid #12372a;
+}
+.step-infos.style2::before {
+  border-left: 4px solid #436850;
 }
 
 .step-infos {
@@ -262,30 +280,27 @@ li {
   left: 50%;
 }
 
-.step-infos.style1::before {
-  border-left: 4px solid #12372a;
-}
-.step-infos.style2::before {
-  border-left: 4px solid #fbfada;
-}
-
 .step-infos::after {
   top: -10px;
 }
 
 .step-info {
   padding: 3rem;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
   text-align: center;
   align-items: center;
-  font-size: 120%;
+  font-size: 110%;
   width: 50%;
 }
 
 .step-info.single {
-  padding: 3rem;
-  text-align: center;
-  align-items: center;
-  font-size: 120%;
+  /* display: inline-block; */
+  /* padding: 3rem; */
+  text-align: left;
+  margin-left: 5em;
+  margin-right: 5em;
+  font-size: 110%;
   width: 100%;
 }
 

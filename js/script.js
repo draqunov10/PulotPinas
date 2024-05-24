@@ -6,3 +6,9 @@ function updateImage() {
     var year = slider.value;
     image.src = year + '.png';
 }
+
+$(document).ready(function() {
+    $(".collection-step").click(function() {
+        $(this).next(".step-infos").slideToggle();
+    });
+});
