@@ -238,6 +238,7 @@ li {
   display: flex;
   height: auto;
   align-items: center;
+  padding-top: 1%;
 }
 
 .results-hypo-conc-container {
@@ -270,7 +271,9 @@ li {
   font-family: 'cubao_font', sans-serif;
 }
 
-
+.results-p{
+  padding-bottom: 1%;
+}
 
 #slider {
   width: 75em; /* Or any other percentage or fixed value */
@@ -324,6 +327,5 @@ li {
 .team-pic {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
   object-fit: cover;
 }
