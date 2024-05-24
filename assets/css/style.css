@@ -249,14 +249,16 @@ li {
   font-size: 140%;
 }
 
+.collection-step.style1:hover {
+  outline: 2px solid #12372a;
+}
+.collection-step.style2:hover {
+  outline: 2px solid #436850;
+}
+
 .collection-step.upper {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-}
-
-.collection-step.lower {
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .step-infos.style1::before {
