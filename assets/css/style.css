@@ -195,16 +195,26 @@ li {
 .dataset-source-links a {
   display: block;
   text-decoration: none;
-  color: #436850; /* Text color */
-  border: 2px solid #436850; /* Border color and thickness */
-  border-radius: 10px; /* Corner roundness */
-  padding: 5px; /* Space between text and border */
-  margin: 7px; /* Space between links */
+  color: #436850;
+  border: 2px solid #436850;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 7px;
+  background-color: transparent;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .dataset-source-links a:hover {
-  color: #12372a; /* Color when hovered */
-  border-color: #12372a; /* Border color when hovered */
+  color: #12372a;
+  border-color: #12372a;
+}
+
+.dataset-source-links a:active {
+  background-color: #fbfada; /* Background color when clicked */
+}
+
+.dataset-source-links svg {
+  margin-left: 10px;
 }
 
 #data-collection {
@@ -213,8 +223,6 @@ li {
 
 #data-collection p {
   text-align: justify;
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
   padding: 10px;
 }
 
@@ -254,43 +262,31 @@ li {
   left: 50%;
 }
 
-.step-infos::after {
-  content: "";
-  position: absolute;
-  left: 49.4%;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
-
 .step-infos.style1::before {
-  border-left: 4px solid #fbfada;
-}
-.step-infos.style2::before {
   border-left: 4px solid #12372a;
 }
-.step-infos.style1::after {
-  background-color: #fbfada;
-}
-.step-infos.style2::after {
-  background-color: #12372a;
+.step-infos.style2::before {
+  border-left: 4px solid #fbfada;
 }
 
 .step-infos::after {
-  top: -5px; /* Half of the width and height */
-}
-
-.step-infos::before {
-  bottom: -5px; /* Half of the width and height */
+  top: -10px;
 }
 
 .step-info {
-  /* background-color: #fbfada; */
   padding: 3rem;
   text-align: center;
   align-items: center;
   font-size: 120%;
   width: 50%;
+}
+
+.step-info.single {
+  padding: 3rem;
+  text-align: center;
+  align-items: center;
+  font-size: 120%;
+  width: 100%;
 }
 
 /* Section: Results */
