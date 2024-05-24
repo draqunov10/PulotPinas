@@ -182,12 +182,22 @@ li {
   height: auto;
 }
 
+<<<<<<< Updated upstream
 .about-question {
   background-color: #fbfada;
   padding: 5rem;
   text-align: center;
   align-items: center;
   font-size: 150%;
+=======
+.about-question{
+    background-color: #FBFADA;
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    width: 50%;
+>>>>>>> Stashed changes
 }
 
 /* Section: Data Collection */
