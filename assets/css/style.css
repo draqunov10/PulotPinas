@@ -10,6 +10,14 @@ body {
   line-height: 1.6;
 }
 
+.reference, .reference a, .reference ol {
+  list-style-type: none;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 20px;
+  color: gray;
+}
+
 /* Navigation Bar Styling */
 nav {
   background-color: #436850;
@@ -17,31 +25,40 @@ nav {
 }
 
 nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   list-style-type: none;
-  padding: 0;
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 10px;
+  width: 100%;
 }
 
 nav ul li a {
+  width: 100%;
   color: white;
   text-decoration: none;
+  text-align: center;
   padding: 10px 15px;
   display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 nav ul li a:hover {
-  background-color: #12372A;
+  background-color: #12372a;
+  width: 100%;
+  transform: scale(1.1);
 }
 
 /* Title Container Styling */
 .title-container {
-  height: auto;
-  padding: 50px;
-  align-items: center;
+  background-color: #12372a;
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
   padding: 17%;
 
@@ -55,18 +72,21 @@ nav ul li a:hover {
 /* Section Styling */
 section {
   padding: 20px;
-  margin: 10px 0;
 }
 
 h1 {
-  font-family: "cubao_font", sans-serif;
+  font-family: "quiapo_font", "cubao_font", sans-serif;
   color: #12372a;
   font-size: 200%;
 }
 
 h2 {
-  font-family: "cubao_font", sans-serif;
+  font-family: "quiapo_font", "cubao_font", sans-serif;
   color: #436850;
+}
+
+strong {
+  font-family: "sunflower_font", sans-serif;
 }
 
 p {
@@ -116,14 +136,14 @@ li {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 15px;
-  background-color: #333;
+  background-color: #436850;
   color: white;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .back-to-top:hover {
-  background-color: #555;
+  background-color: #12372a;
 }
 
 /* Section: Background */
@@ -138,12 +158,13 @@ li {
   padding: 50px;
   background-color: #fbfada;
   align-items: center;
+  border-radius: 15px;
 }
 
 .background-left {
   width: 50%;
   height: 50em;
-  background-color: #fbfada;
+  /* background-color: #fbfada; */
   padding: 1rem;
   align-items: center;
 }
@@ -152,7 +173,7 @@ li {
   width: 50%;
   height: 50em;
   padding: 1rem;
-  background-color: #fbfada;
+  /* background-color: #fbfada; */
   align-items: center;
 }
 
@@ -422,16 +443,49 @@ li {
   display: none;
 }
 
+/* Check out */
+#checkout {
+  background-color: #fbfada;
+  padding-bottom: 20px;
+}
+
+.check-options {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Back to Top Link Styling */
+.check-github {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.check-github:hover {
+  background-color: #555;
+}
+
 /* Section: Team */
 #team {
   height: 100%;
   background-color: #12372a;
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .team-container {
   display: flex;
   align-items: center;
-  /* width: 100vw;/ */
 }
 
 .team-desc {
