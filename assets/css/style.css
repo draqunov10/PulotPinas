@@ -218,10 +218,6 @@ li {
   margin-left: 10px;
 }
 
-#data-collection {
-  background-color: white;
-}
-
 #data-collection p {
   text-align: justify;
   padding: 10px;
@@ -351,7 +347,6 @@ li {
 
 .results-hypo-desc-container-1 {
   width: 75%;
-  text-align: justify;
   padding-left: 4%;
   padding-right: 4%;
 }
@@ -399,6 +394,7 @@ li {
 }
 
 .results-p {
+  text-align: justify;
   padding-bottom: 1%;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -418,17 +414,18 @@ li {
 }
 
 /* Section: Team */
-
-#data-collection {
-  background-color: #fbfada;
+#team {
+  height: 100%;
+  background-color: #12372a;
 }
 
 .team-container {
   display: flex;
-  height: auto;
+  /* height: auto; */
 }
 
 .team-desc {
+  color: white;
   text-align: center;
   padding: 25px;
   width: 50%;
@@ -437,12 +434,22 @@ li {
 }
 
 .team-member {
-  background-color: #fbfada;
+  /* outline: 10px solid #436850; */
+  box-shadow: 0 10px 10px #436850;
+  background-color: white;
   width: 33%;
   text-align: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   font-family: "sunflower_font", sans-serif;
+  border-radius: 15px;
+  margin: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.team-member:hover {
+  background-color: #fbfada; /* Change background color on hover */
+  transform: scale(1.03); /* Scale the element up on hover */
 }
 
 .team-pic-container {
@@ -453,6 +460,7 @@ li {
 }
 
 .team-pic {
+  border-radius: 15px;
   width: 200px;
   height: 200px;
   object-fit: cover;
