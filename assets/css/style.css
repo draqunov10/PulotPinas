@@ -60,12 +60,30 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  padding: 17%;
+  padding: 10%;
 
   background-image: url('https://img.freepik.com/premium-vector/silhouette-factory-interior-with-machine-conveyor-belt-flat-design-vector-illustration_493806-13602.jpg');
   background-position: center; /* Centers the image */
   background-size: cover; /* Makes the image cover the entire div */
 
+}
+
+.title-title{
+  font-family: 'cubao_font', sans-serif; 
+  font-size: 750%; 
+  color: #12372A;
+}
+
+.title-subtitle{
+  font-family: 'quiapo_font', sans-serif; 
+  font-size: 350%; 
+  color: #12372A;
+}
+
+.title-details{
+  font-family: 'sunflower_font', sans-serif;
+  font-size: 150%;
+  color: white;
 }
 
 
@@ -96,6 +114,7 @@ p {
 
 li {
   font-family: "sunflower_font", sans-serif;
+  font-size: 135%;
 }
 
 #home {
@@ -152,6 +171,16 @@ li {
   background-color: white;
 }
 
+.background-title{
+  font-size: 500%;
+  color: #12372A;
+}
+
+.background-text{
+  text-align: justify;
+  padding-top: 2%;
+}
+
 .background-big {
   display: flex;
   height: auto;
@@ -195,6 +224,12 @@ li {
   background-color: white;
 }
 
+.about-title{
+  font-size: 500%;
+  color: #12372A;
+  text-align: center;
+}
+
 .about-text {
   text-align: center;
   padding: 25px;
@@ -208,16 +243,27 @@ li {
   height: auto;
 }
 
+.about-question-highlight{
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
 .about-question {
   background-color: #fbfada;
   padding: 5rem;
   text-align: center;
   align-items: center;
-  font-size: 150%;
   width: 50%;
 }
 
 /* Section: Data Collection */
+
+.data-collection-title{
+  font-size: 500%;
+  color: #12372A;
+  text-align: center;
+}
+
 .dataset-source-links a {
   display: block;
   text-decoration: none;
@@ -332,6 +378,12 @@ li {
 
 #results {
   background-color: #fbfada;
+}
+
+.results-title{
+  font-size: 500%;
+  color: #12372A;
+  text-align: center;
 }
 
 .results-slider-container {
@@ -480,6 +532,12 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
+}
+
+.team-title{
+  font-size: 500%;
+  color: white;
   text-align: center;
 }
 

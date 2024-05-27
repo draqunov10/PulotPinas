@@ -28,15 +28,15 @@
 
     <!-- Title Bar -->
     <div class="title-container">
-        <h1>“Pulot Pinas”:
+        <h1 class="title-title">“Pulot Pinas”
         </h1>
-        <h1>
+        <h1 class="title-subtitle">
             A Time Series Study on the Hazardous Waste Generators (HWGs) of the Philippines
         </h1>
-        <p>
+        <p class="title-details">
             A CS 132 Capstone Project Submission for "PiliNut 2023": Pilipinas in a Nutshell
         </p>
-        <p>
+        <p class="title-details">
             Submitted by Timothy Javier, Led Salazar and Nina Sapitula
         </p>
         
@@ -47,28 +47,27 @@
     <section class="background-big" id="background">
         
         <div class="background-left">
-            <h2 style="font-size: 40px">
+            <h2 class="background-title">
                 Background of the Study
             </h2>
             <p class="background-quote">In the labyrinth of modern industry lies a hidden menace — hazardous waste.</p>
-            <p>
+            <p class="background-text">
                 In 2022, the Philippines has totalled about 252,800 tons of generated hazardous waste [1]. With the country's increasing population along with industrial and technological advancements done for economic progress, if measures to mitigate exploitative actions from Hazardous Waste Generators (HWGs) are not made, we can only expect that the yearly hazardous waste generation to follow.
             </p>
-            <p>
+            <p class="background-text">
                 Overproduction and unmanaged hazardous wastes have serious harmful consequences in the environment and in human health [2]. Hazardous wastes demand more efforts in analysis and segregation for their safe disposal. Therefore, there are limited locations that can accomodate them. Depending on the substance and quantity, hazardous waste pose a threat to land and marine biodiversity, those of which share the space. 
             </p>
-            <p>
+            <p class="background-text">
                 The health of the citizens is also potentially compromised as there is increased exposure to toxins and pollutants. Human health complications due to hazardous substance susceptibility vary from minor discomforts like headaches and nausea to more serious issues such as genetic mutation and even death.
             </p>  
-        
-            <br><strong>References:</strong>
-            <ol>
+                    
+            <ol class="reference">
+                <strong>References:</strong>
                 <li><a href="https://docs.google.com/spreadsheets/d/1HUo2IeT1l_GUs4Ce0kV82KOMPFk6-mtI/edit#gid=1869164838">Amount of Generated Hazardous Waste by Region and by Type, 2012 to 2022</a>
                     </li>
                 <li><a href="https://www.intechopen.com/chapters/74184">About Hazardous Waste Management</a></li>
             </ol>
         
-            <a href="#top" class="back-to-top">Back to Top</a></li>
         </div>
 
         <div class="background-right">
@@ -82,7 +81,7 @@
 
     <section id="about" class="about">
         
-        <h2 style="font-size: 50px; text-align: center;">
+        <h2 class="about-title">
             About Project "Pulot Pinas"
         </h2>
     
@@ -111,34 +110,35 @@
 
         <div class="about-questions">
             <div class="about-question">
-                <p>
-                    The population of a region is not directly proportional to the amount of hazardous waste
+                <p class="about-question-highlight">
+                    The population of a region is not directly proportional to the amount of hazardous waste.
                 </p>
-                <p class="about-hypothesis1">
+                <p>
                     Thus, we hypothesize that Region IV (CALABARZON), Region NCR (National Capital Region) and Region 3 (Central Luzon) among others would appear under this category as the regions making up almost 40% of the country's total population [1].
                 </p>
             </div>
             <div class="about-question">
-                <p >
-                    The National Capital Region does not yield mostly to Electronics-related wastes
+                <p class="about-question-highlight">
+                    The National Capital Region does not yield mostly to Electronics-related wastes.
                 </p>
-                <p class="about-hypothesis2">
+                <p>
                     Due to rapid technological advancements and the region's being the center of urbanization, we presume that the National Capital Region would have generators yielding Electronics-related wastes like outdated gadgets and equipment the most among other hazardous wastes.
                 </p>
             </div>
             
         </div>
-
-        <ol>
-            <li>https://www.philatlas.com/regions.html#:~:text=Based%20on%20the%202020%20census,three%20(3)%20regions%20alone.</li>
+        <ol class="reference">
+            <strong>References:</strong>
+            <li><a href="https://www.philatlas.com/regions.html#:~:text=Based%20on%20the%202020%20census,three%20(3)%20regions%20alone.">On the Population Distribution of the Philippines</a></li>
         </ol>
+
 
     </section>
    
     <hr>
     
     <section id="data-collection" style="background-color: #fbfada;">
-        <h2 style="font-size: 40px; text-align: center;">
+        <h2 class="data-collection-title">
             Data Collection Process
         </h2>
     
@@ -238,7 +238,7 @@
 
                 <div class="dataset-source-links">
                     <a href="https://docs.google.com/spreadsheets/d/1Zim4jwcWGcq3BswzAZ-pTNuv3F4qlLpRfEyE9IWEqmc/edit#gid=1450335543">
-                        Registered Hazardous Waste Generators
+                        NCR HWG Dataset
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
                             <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
@@ -299,9 +299,11 @@
             </div>
         </div>
     </section>
+
+    <hr>
      
     <section id="results">
-        <h2 style="font-size: 50px; text-align: center;">
+        <h2 class="results-title">
             Results
         </h2>
 
@@ -434,10 +436,11 @@
                         to test the effect of urbanization on the type of hazardous waste generated. 
                     </p>
 
-                    <br><strong>Reference:</strong>
-                        <ol>
-                            <li><a href="https://psa.gov.ph/content/urban-population-philippines-2020-census-population-and-housing">Philippine Statistics Authority Report on Urbanization of Each Region</a></li>
-                        </ol>
+                    <br>
+                    <ol class="reference">
+                        <strong>Reference:</strong>
+                        <li><a href="https://psa.gov.ph/content/urban-population-philippines-2020-census-population-and-housing">Philippine Statistics Authority Report on Urbanization of Each Region</a></li>
+                    </ol>
                 </div>
             </center>
                 
@@ -447,12 +450,27 @@
             
         </div>
         <div class="space"></div>
+
+        
+    </section>
+
+    <section id="checkout">
+        <div class="check-options">
+            <a href="https://github.com/draqunov10/PulotPinas" class="check-github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+                Github Project
+            </a>
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+        <div class="space"></div>
     </section>
 
     
 
     <section id="team">
-        <h2 style="font-size: 50px; text-align: center; color: white">
+        <h2 class="team-title">
             About the Team
         </h2>
 
@@ -499,10 +517,11 @@
                 </p>
 
             </div>
-        </div>
         
-
+            
+        </div>
     </section>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
