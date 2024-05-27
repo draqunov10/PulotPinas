@@ -313,7 +313,7 @@ li {
 }
 
 .results-slider-container {
-  width: 90%;
+  width: 120%;
   background-color: #adbc9f;
   display: flex;
   flex-direction: column;
@@ -327,12 +327,6 @@ li {
   flex: 0 0 auto;
   padding-left: 35px;
   padding-right: 35px;
-}
-
-.results-slide img {
-  width: 75%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .results-question {
