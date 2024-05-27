@@ -27,7 +27,6 @@ body {
 /* Navigation Bar Styling */
 nav {
   background-color: #436850;
-  color: black;
 }
 
 nav ul {
@@ -68,7 +67,8 @@ nav ul li a:hover {
   text-align: center;
   padding: 10%;
 
-  background-image: url('https://img.freepik.com/premium-vector/silhouette-factory-interior-with-machine-conveyor-belt-flat-design-vector-illustration_493806-13602.jpg');
+  background: linear-gradient(to bottom, transparent, white), url('https://img.freepik.com/premium-vector/silhouette-factory-interior-with-machine-conveyor-belt-flat-design-vector-illustration_493806-13602.jpg');
+  /* background-image: url(''); */
   background-position: center; /* Centers the image */
   background-size: cover; /* Makes the image cover the entire div */
 
@@ -89,7 +89,7 @@ nav ul li a:hover {
 .title-details{
   font-family: 'sunflower_font', sans-serif;
   font-size: 150%;
-  color: white;
+  color: black;
 }
 
 
@@ -189,24 +189,23 @@ li {
 
 .background-big {
   display: flex;
-  height: auto;
+  /* height: 100vh; */
   padding: 50px;
   background-color: #fbfada;
   align-items: center;
-  border-radius: 15px;
 }
 
 .background-left {
-  width: 50%;
-  height: 50em;
+  width: 60%;
+  /* height: 50em; */
   /* background-color: #fbfada; */
   padding: 1rem;
   align-items: center;
 }
 
 .background-right {
-  width: 50%;
-  height: 50em;
+  /* width: 50%; */
+  /* height: 50em; */
   padding: 1rem;
   /* background-color: #fbfada; */
   align-items: center;
@@ -255,6 +254,10 @@ li {
 }
 
 .about-question {
+  border-radius: 15px;
+  outline: 3px solid #12372a;
+  margin-left: 2em;
+  margin-right: 2em;
   background-color: #fbfada;
   padding: 5rem;
   text-align: center;
@@ -564,7 +567,7 @@ li {
 .team-member {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 450px;
   box-shadow: 0 10px 10px #436850;
   background-color: white;
   width: 30%;
