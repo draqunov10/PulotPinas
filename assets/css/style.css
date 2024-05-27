@@ -308,24 +308,23 @@ li {
 
 /* Section: Results */
 
+#results {
+  background-color: #fbfada;
+}
+
 .results-slider-container {
+  width: 90%;
   background-color: #adbc9f;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow-x: auto;
   white-space: nowrap;
-  /* -webkit-overflow-scrolling: touch; */
   height: 100%;
-}
-
-.results-slider {
-  display: inline-flex;
 }
 
 .results-slide {
   flex: 0 0 auto;
-  width: 75%;
   padding-left: 35px;
   padding-right: 35px;
 }
@@ -352,17 +351,15 @@ li {
 
 .results-hypo-conc-container {
   height: auto;
-  width: 25%;
-  align-items: center;
+  width: 30%;
   text-align: center;
-  background-color: #fbfada;
 }
 
 .results-hypo-desc-container-1 {
   width: 75%;
   text-align: justify;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .results-hypo-desc-container-2 {
@@ -397,7 +394,7 @@ li {
 }
 
 .results-hypo-text {
-  padding: 30px;
+  padding: 10px;
 }
 
 .results-hypo-result {
@@ -409,10 +406,12 @@ li {
 
 .results-p {
   padding-bottom: 1%;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #slider {
-  width: 75em;
+  width: 30em;
 }
 
 #year-display {
@@ -427,7 +426,7 @@ li {
 /* Section: Team */
 
 #data-collection {
-  background-color: white;
+  background-color: #fbfada;
 }
 
 .team-container {
