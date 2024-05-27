@@ -321,6 +321,11 @@ li {
   height: 100%;
 }
 
+.result-slide img{
+  width: 100%;
+  height: 100%;
+}
+
 .results-question {
   text-align: center;
   font-family: "sunflower_font", sans-serif;
@@ -420,7 +425,8 @@ li {
 
 .team-container {
   display: flex;
-  /* height: auto; */
+  align-items: center;
+  /* width: 100vw;/ */
 }
 
 .team-desc {
@@ -433,10 +439,12 @@ li {
 }
 
 .team-member {
-  /* outline: 10px solid #436850; */
+  display: flex;
+  flex-direction: column;
+  height: 400px;
   box-shadow: 0 10px 10px #436850;
   background-color: white;
-  width: 33%;
+  width: 30%;
   text-align: center;
   align-items: center;
   padding: 20px;
@@ -457,6 +465,11 @@ li {
   align-items: center;
   margin-inline: 15em;
 }
+
+/* .team-pic-container img{
+  width: 100%;
+  height: 100%; */
+/* } */
 
 .team-pic {
   border-radius: 15px;
