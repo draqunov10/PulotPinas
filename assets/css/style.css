@@ -309,6 +309,8 @@ li {
 }
 
 .results-slider-container {
+  outline: 3px solid #12372a;
+  border-radius: 15px;
   width: 120%;
   background-color: #adbc9f;
   display: flex;
@@ -317,12 +319,6 @@ li {
   overflow-x: auto;
   white-space: nowrap;
   height: 100%;
-}
-
-.results-slide {
-  flex: 0 0 auto;
-  padding-left: 35px;
-  padding-right: 35px;
 }
 
 .results-question {
@@ -359,6 +355,8 @@ li {
 }
 
 .results-hypo-desc-container-2 img {
+  border-radius: 15px;
+  outline: 3px solid #12372a;
   width: 90%;
   text-align: center;
 }
@@ -401,6 +399,7 @@ li {
 }
 
 #slider {
+  background-color: #12372a;
   width: 30em;
 }
 
@@ -464,4 +463,9 @@ li {
   width: 200px;
   height: 200px;
   object-fit: cover;
+}
+
+.space {
+  height: 100px;
+  background-color: #fbfada;
 }
