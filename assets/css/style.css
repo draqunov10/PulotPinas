@@ -504,17 +504,88 @@ li {
   display: none;
 }
 
-/* Check out */
-#checkout {
-  background-color: #fbfada;
-  padding-bottom: 20px;
+
+
+/* Section: future */
+
+#future {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.check-options {
+.future-title {
   display: flex;
-  justify-content: space-evenly;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.future-title1{
+  font-size: 500%;
+  color: #12372A !important;
+}
+
+.future-title-block{
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.future-title-small {
+  margin-bottom: -10px;
+  color: rgb(125, 0, 0);
+}
+.future-title-big {
+  color: #12372A !important;
+  margin-top: -20px;
+  font-size: 500%;
+}
+
+.decomposed-slider-container, .prediction-slider-container, .future-general-container{
+  margin: 1em;
+  outline: 3px solid #151716;
+  border-radius: 15px;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.decomposed-slide img, .prediction-slide img, .future-general-container img{
+  width: 100%;
+  height: 100%;
+}
+
+/* Section: conclusion */
+
+#conclusion {
+  background-color: white;
+}
+
+#conclusion p{
+  text-align: justify;
+  margin: 5em;
+}
+
+.conclusion-title{
+  font-size: 500%;
+  color: #12372A;
+  text-align: center;
+}
+
+.concluding-quote{
+  text-align: end;
+  font-family: "sunflower_font", sans-serif;
+  font-weight: bold;
+  margin: 10em;
+  font-size: 150%;
+  color:#12372A;
 }
 
 /* Back to Top Link Styling */
@@ -530,6 +601,19 @@ li {
 
 .check-github:hover {
   background-color: #555;
+}
+
+/* Check out */
+#checkout {
+  background-color: #fbfada;
+  padding-bottom: 20px;
+}
+
+.check-options {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
 }
 
 /* Section: Team */

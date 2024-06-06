@@ -444,44 +444,87 @@
     </section>
 
     <section id="future">
-        <h2 class="future-title1">
-            Future
-        </h2>
-        <h2 class="future-title2">
-            Hazardous Waste
+
+        <div class="future-title">
             <h2 class="future-title1">
-                Generation
+                Future
             </h2>
-        </h2>
-
-        <div class="future-general">
-            <img src="HWGperRegion.png" alt="HWGperRegion">
+            <div class="future-title-block">
+                <h2 class="future-title-small">Hazardous Waste</h2>
+                <h2 class="future-title-big">Generations</h2>
+            </div>
         </div>
 
+        <div class="future-general-big-container">
+            <div class="future-general-container-info">
+                <h4 class="future-general-title" style="font-size: 150%;">
+                    General Overview of the Amount of Hazardous Waste Generators in the Philippines
+                </h4>
+
+                <p class="future-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas ratione iste ipsam recusandae, magnam perferendis, similique labore nobis aliquam quo excepturi nisi minus ipsum atque, explicabo quis debitis. Minima!
+                </p>
+            </div>
+
+            <div class="future-general-container">
+                <img src="HWGperRegion.png" alt="HWGperRegion">
+            </div>
+        </div>
+
+        <div class="future-general-big-container">
+            <div class="decomposed-slider-container">
+                <div class="decomposed-slide">
+                    <img id='decomposed-image' src="RegionsDecomposed/National Capital Region (NCR)decomposed.png">
+                </div>
+                <div class="slider-container">
+                    <input type="range" id="decomposed-slider" min="0" max="15" value="0" oninput="updateDecomposedImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
+                </div>
+            </div>
+            <div class="future-general-container-info">
+                <h4 class="future-general-title" style="font-size: 150%;">
+                    Pre-Forecast Analysis: Data Decomposed
+                </h4>
+
+                <p class="future-p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas ratione iste ipsam recusandae, magnam perferendis, similique labore nobis aliquam quo excepturi nisi minus ipsum atque, explicabo quis debitis. Minima!
+                </p>
+            </div>
+        </div>
         
-        <div class="decomposed-slider-container">
-            <div class="decomposed-slide">
-                <img id='decomposed-image' src="RegionsDecomposed/National Capital Region (NCR)decomposed.png">
-            </div>
-            <div class="slider-container">
-                <input type="range" id="decomposed-slider" min="0" max="15" value="0" oninput="updateDecomposedImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
-            </div>
-        </div>
+        <h3 class="prediction-title">
+            Forecast Prediction: How many more will there be?
+        </h3>
 
         <div class="prediction-slider-container">
-            <div class='prediction-image'>
+            <div class='prediction-slide'>
                 <img id="prediction-image" src="RegionsPrediction/National Capital Region (NCR)predict.png">
             </div>
             <div class="slider-container">
                 <input type="range" id="prediction-slider" min="0" max="15" value="0" oninput="updatePredictionImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
             </div>
         </div>
+
+        <p class="future-p">
+            Prediction analysis here. The discussion is thorough and provides a deep understanding of the EDA/ML results. It clearly explains the significance of the findings, connects them to the initial problem statement, and discusses implications. The limitations of the analysis and potential next steps or improvements are also addressed.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas ratione iste ipsam recusandae, magnam perferendis, similique labore nobis aliquam quo excepturi nisi minus ipsum atque, explicabo quis debitis. Minima!
+        </p>
     </section>
 
     <section id="conclusion">
-        <h2 class="future-title">
+        <h2 class="conclusion-title">
             Conclusion
         </h2>
+
+        <p>
+            The conclusion effectively summarizes the key findings and insights from the project. It clearly articulates the impact and significance of the results, tying them back to the original problem statement and objectives. The conclusion also suggests practical applications, future work, or potential improvements in a thoughtful manner
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab consequuntur harum non inventore cum molestias. Vel nesciunt labore, ut veritatis dolores molestias sapiente distinctio eos, facere neque aspernatur minima!
+        </p>
+
+        <h3 class="concluding-quote">
+            <div class="quote">We can't save the world by playing by the rules because the rules have to be changed.</div>
+            <div class="author">- Greta Thunberg</div>
+        </h3>
+
 
     </section>
 
