@@ -325,10 +325,10 @@
                 
                 <div class="results-slider-container">
                     <div class="result-slide">
-                        <img id="year-image" src="2012.png">
+                        <img id="year-image" src="RegionsMap/2012.png">
                     </div>
                     <div class="slider-container">
-                        <input type="range" id="slider" min="2012" max="2022" value="2012" oninput="updateImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
+                        <input type="range" id="year-slider" min="2012" max="2022" value="2012" oninput="updateMapImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
                     </div>
                 </div>
 
@@ -443,6 +443,48 @@
         
     </section>
 
+    <section id="future">
+        <h2 class="future-title1">
+            Future
+        </h2>
+        <h2 class="future-title2">
+            Hazardous Waste
+            <h2 class="future-title1">
+                Generation
+            </h2>
+        </h2>
+
+        <div class="future-general">
+            <img src="HWGperRegion.png" alt="HWGperRegion">
+        </div>
+
+        
+        <div class="decomposed-slider-container">
+            <div class="decomposed-slide">
+                <img id='decomposed-image' src="RegionsDecomposed/National Capital Region (NCR)decomposed.png">
+            </div>
+            <div class="slider-container">
+                <input type="range" id="decomposed-slider" min="0" max="15" value="0" oninput="updateDecomposedImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
+            </div>
+        </div>
+
+        <div class="prediction-slider-container">
+            <div class='prediction-image'>
+                <img id="prediction-image" src="RegionsPrediction/National Capital Region (NCR)predict.png">
+            </div>
+            <div class="slider-container">
+                <input type="range" id="prediction-slider" min="0" max="15" value="0" oninput="updatePredictionImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
+            </div>
+        </div>
+    </section>
+
+    <section id="conclusion">
+        <h2 class="future-title">
+            Conclusion
+        </h2>
+
+    </section>
+
     <section id="checkout">
         <div class="check-options">
             <a href="https://github.com/draqunov10/PulotPinas" class="check-github">
@@ -471,7 +513,7 @@
             <div class="team-member">
                 
                 <div class="team-pic-container">
-                    <center><img src="team-mem-1.jpg" alt="mem" class="team-pic"></center>
+                    <center><img src="teams/team-mem-1.jpg" alt="mem" class="team-pic"></center>
                 </div>
 
                 <h3>Timothy Javier</h3>
@@ -484,7 +526,7 @@
             <div class="team-member">
                 
                 <div class="team-pic-container">
-                    <center><img src="team-mem-2.jpg" alt="mem" class="team-pic"></center>
+                    <center><img src="teams/team-mem-2.jpg" alt="mem" class="team-pic"></center>
                 </div>
 
                 <h3>Led Salazar</h3>
@@ -497,7 +539,7 @@
             <div class="team-member">
                 
                 <div class="team-pic-container">
-                    <center><img src="team-mem-3.jpg" alt="mem" class="team-pic"></center>
+                    <center><img src="teams/team-mem-3.jpg" alt="mem" class="team-pic"></center>
                 </div>
 
                 <h3>Nina Sapitula</h3>
