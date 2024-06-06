@@ -274,6 +274,8 @@ li {
 }
 
 .dataset-source-links a {
+  width: 80%;
+  text-align: center;
   display: block;
   text-decoration: none;
   color: #436850;
@@ -543,11 +545,18 @@ li {
   font-size: 500%;
 }
 
+.future-general-big-container{
+  display: flex;
+  height: auto;
+  align-items: center;
+  padding-top: 1%;
+}
+
 .decomposed-slider-container, .prediction-slider-container, .future-general-container{
   margin: 1em;
   outline: 3px solid #151716;
   border-radius: 15px;
-  width: 70%;
+  /* width: 80; */
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -557,10 +566,39 @@ li {
   height: 100%;
 }
 
+.future-general-container-info{
+  width: 90%;
+}
+
+.future-general-container-info .dataset-source-links{
+  margin-left: 43px;
+  margin-right: 50px;
+}
+
 .decomposed-slide img, .prediction-slide img, .future-general-container img{
   width: 100%;
   height: 100%;
 }
+
+.future-general-title {
+  font-size: 150%;
+}
+
+.future-p, .future-general-title {
+  text-align: justify;
+  padding-bottom: 1%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.prediction-title {
+  font-family: "cubao_font", sans-serif;
+  align-items: center;
+  font-size: 250%;
+  margin-top: 1em;
+  color: #12372a;
+}
+
 
 /* Section: conclusion */
 
@@ -605,7 +643,7 @@ li {
 
 /* Check out */
 #checkout {
-  background-color: #fbfada;
+  background-color: white;
   padding-bottom: 20px;
 }
 
@@ -675,11 +713,6 @@ li {
   align-items: center;
   margin-inline: 15em;
 }
-
-/* .team-pic-container img{
-  width: 100%;
-  height: 100%; */
-/* } */
 
 .team-pic {
   border-radius: 15px;
