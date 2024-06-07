@@ -22,6 +22,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#data-collection">Data Collection</a></li>
             <li><a href="#results">Results</a></li>
+            <li><a href="#future">Forecast</a></li>
             <li><a href="#team">Team</a></li>
         </ul>
     </nav>
@@ -325,10 +326,10 @@
                 
                 <div class="results-slider-container">
                     <div class="result-slide">
-                        <img id="year-image" src="2012.png">
+                        <img id="year-image" src="RegionsMap/2012.png">
                     </div>
                     <div class="slider-container">
-                        <input type="range" id="slider" min="2012" max="2022" value="2012" oninput="updateImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
+                        <input type="range" id="year-slider" min="2012" max="2022" value="2012" oninput="updateMapImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
                     </div>
                 </div>
 
@@ -443,6 +444,114 @@
         
     </section>
 
+    <section id="future">
+
+        <div class="future-title">
+            <h2 class="future-title1">
+                Future
+            </h2>
+            <div class="future-title-block">
+                <h2 class="future-title-small">Hazardous Waste</h2>
+                <h2 class="future-title-big">Generations</h2>
+            </div>
+        </div>
+
+        <p class="future-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur obcaecati dolorem nobis qui quasi illo expedita modi error porro possimus sunt facere accusantium, itaque nam atque amet consequuntur ab ullam.</p>
+
+        <div class="future-general-big-container">
+            <div class="future-general-container-info">
+                <h4 class="future-general-title">
+                    An Overview of the Amount of Hazardous Waste Generators in the Philippines
+                </h4>
+
+                <p class="future-p">
+                    It is evident that most of the time, the leading hazardous waste generator is the National Capital Region. Next to it is the CALABARZON (Region IV-A), this ties up with our first hypothesis, that it is the region where most of waste are produced throughout the years.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas ratione iste ipsam recusandae, magnam perferendis, similique labore nobis aliquam quo excepturi nisi minus ipsum atque, explicabo quis debitis. Minima!
+                </p>
+
+                <div class="dataset-source-links">
+                    <a href="https://docs.google.com/spreadsheets/d/1Zim4jwcWGcq3BswzAZ-pTNuv3F4qlLpRfEyE9IWEqmc/edit#gid=1450335543">
+                        HWG Per Region Dataset (2nd Sheet)
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="future-general-container">
+                <img src="HWGperRegion.png" alt="HWGperRegion">
+            </div>
+        </div>
+
+        <div class="future-general-big-container">
+            <div class="decomposed-slider-container">
+                <div class="decomposed-slide">
+                    <img id='decomposed-image' src="RegionsDecomposed/National Capital Region (NCR)decomposed.png">
+                </div>
+                <div class="slider-container">
+                    <input type="range" id="decomposed-slider" min="0" max="15" value="0" oninput="updateDecomposedImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
+                </div>
+            </div>
+            <div class="future-general-container-info">
+                <h4 class="future-general-title">
+                    Pre-Forecast Analysis: Data Decomposed
+                </h4>
+
+                <p class="future-p">
+                    The data can be decomposed into trends and patterns thanks to Seasonal AutoRegressive Integrated Moving Average, the result is shown on the left. It is unexpected that NCR's trend has been decreasing over the months, so are Central Luzon, MIMAROPA, Zamboanga Peninsula, and Northern Mindanao. This may be a good sign that the region is managing its waste properly. However, the regions V, VI, VIII, and XIII are increasing in trend, which is alarming. 
+                    For the rest, due to its horizontal-like trend, it shows that the regioins are maintaining their amount of hazardous waste generation.
+                </p>
+
+                <p class="future-p">
+                    Seasonal Insight here. Insights derived from the model are clearly explained and tied back to the problem statement. Practical implications are discussed.                </p>
+
+            </div>
+        </div>
+        
+        <h3 class="prediction-title">
+            Forecast Prediction: How many more will there be?
+        </h3>
+
+        <div class="prediction-slider-container">
+            <div class='prediction-slide'>
+                <img id="prediction-image" src="RegionsPrediction/National Capital Region (NCR)predict.png">
+            </div>
+            <div class="slider-container">
+                <input type="range" id="prediction-slider" min="0" max="15" value="0" oninput="updatePredictionImage()" onmousemove="showYear(event)" onmouseout="hideYear()">
+            </div>
+        </div>
+
+        <p class="future-p" style="margin-left: 5em; margin-right: 5em; margin-top: 1em;">
+            Prediction analysis here. The discussion is thorough and provides a deep understanding of the EDA/ML results. It clearly explains the significance of the findings, connects them to the initial problem statement, and discusses implications. The limitations of the analysis and potential next steps or improvements are also addressed.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas ratione iste ipsam recusandae, magnam perferendis, similique labore nobis aliquam quo excepturi nisi minus ipsum atque, explicabo quis debitis. Minima!
+        </p>
+    </section>
+
+    <section id="conclusion">
+        <h2 class="conclusion-title">
+            Conclusion
+        </h2>
+
+        <p>
+            The conclusion effectively summarizes the key findings and insights from the project. It clearly articulates the impact and significance of the results, tying them back to the original problem statement and objectives. The conclusion also suggests practical applications, future work, or potential improvements in a thoughtful manner
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab consequuntur harum non inventore cum molestias. Vel nesciunt labore, ut veritatis dolores molestias sapiente distinctio eos, facere neque aspernatur minima!
+        </p>
+
+        <p>
+            Call-to-action keme keme. The portfolio presents a compelling and coherent story that effectively ties together the whole project and sections. The narrative flows logically, engaging the viewer from start to finish. Each project and section builds on the previous one, contributing to a unified theme or message. The portfolio includes a clear and persuasive call to action.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nemo culpa, necessitatibus laudantium architecto, iure sunt suscipit tempora minus omnis mollitia placeat. Iste cumque molestias quaerat minus nesciunt ad ex.
+        </p>
+
+        <h3 class="concluding-quote">
+            <div class="quote">We can't save the world by playing by the rules because the rules have to be changed.</div>
+            <div class="author">- Greta Thunberg</div>
+        </h3>
+
+
+    </section>
+
     <section id="checkout">
         <div class="check-options">
             <a href="https://github.com/draqunov10/PulotPinas" class="check-github">
@@ -453,7 +562,6 @@
             </a>
             <a href="#top" class="back-to-top">Back to Top</a>
         </div>
-        <div class="space"></div>
     </section>
 
     
@@ -471,7 +579,7 @@
             <div class="team-member">
                 
                 <div class="team-pic-container">
-                    <center><img src="team-mem-1.jpg" alt="mem" class="team-pic"></center>
+                    <center><img src="teams/team-mem-1.jpg" alt="mem" class="team-pic"></center>
                 </div>
 
                 <h3>Timothy Javier</h3>
@@ -484,7 +592,7 @@
             <div class="team-member">
                 
                 <div class="team-pic-container">
-                    <center><img src="team-mem-2.jpg" alt="mem" class="team-pic"></center>
+                    <center><img src="teams/team-mem-2.jpg" alt="mem" class="team-pic"></center>
                 </div>
 
                 <h3>Led Salazar</h3>
@@ -497,7 +605,7 @@
             <div class="team-member">
                 
                 <div class="team-pic-container">
-                    <center><img src="team-mem-3.jpg" alt="mem" class="team-pic"></center>
+                    <center><img src="teams/team-mem-3.jpg" alt="mem" class="team-pic"></center>
                 </div>
 
                 <h3>Nina Sapitula</h3>
