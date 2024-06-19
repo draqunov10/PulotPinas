@@ -603,7 +603,7 @@ li {
 /* Section: conclusion */
 
 #conclusion {
-  background-color: white;
+  background-color: #fbfada;
 }
 
 #conclusion p{
@@ -618,11 +618,12 @@ li {
 }
 
 .concluding-quote{
-  text-align: end;
+  background-color: #adbc9f;
+  text-align: center;
   font-family: "sunflower_font", sans-serif;
   font-weight: bold;
-  margin: 10em;
-  font-size: 150%;
+  margin: 2em;
+  font-size: 200%;
   color:#12372A;
 }
 
