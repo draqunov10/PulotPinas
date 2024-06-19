@@ -12,10 +12,12 @@ body {
 
 .section-title {
   font-size: 50px;
-  text-align: center
+  text-align: center;
 }
 
-.reference, .reference a, .reference ol {
+.reference,
+.reference a,
+.reference ol {
   text-decoration: none;
   list-style-type: none;
   font-size: 0.8rem;
@@ -67,31 +69,30 @@ nav ul li a:hover {
   text-align: center;
   padding: 10%;
 
-  background: linear-gradient(to bottom, transparent, white), url('https://img.freepik.com/premium-vector/silhouette-factory-interior-with-machine-conveyor-belt-flat-design-vector-illustration_493806-13602.jpg');
+  background: linear-gradient(to bottom, transparent, white),
+    url("https://img.freepik.com/premium-vector/silhouette-factory-interior-with-machine-conveyor-belt-flat-design-vector-illustration_493806-13602.jpg");
   /* background-image: url(''); */
   background-position: center; /* Centers the image */
   background-size: cover; /* Makes the image cover the entire div */
-
 }
 
-.title-title{
-  font-family: 'cubao_font', sans-serif; 
-  font-size: 750%; 
-  color: #12372A;
+.title-title {
+  font-family: "cubao_font", sans-serif;
+  font-size: 750%;
+  color: #12372a;
 }
 
-.title-subtitle{
-  font-family: 'quiapo_font', sans-serif; 
-  font-size: 350%; 
-  color: #12372A;
+.title-subtitle {
+  font-family: "quiapo_font", sans-serif;
+  font-size: 350%;
+  color: #12372a;
 }
 
-.title-details{
-  font-family: 'sunflower_font', sans-serif;
+.title-details {
+  font-family: "sunflower_font", sans-serif;
   font-size: 150%;
   color: black;
 }
-
 
 /* Section Styling */
 section {
@@ -177,12 +178,12 @@ li {
   background-color: white;
 }
 
-.background-title{
+.background-title {
   font-size: 500%;
-  color: #12372A;
+  color: #12372a;
 }
 
-.background-text{
+.background-text {
   text-align: justify;
   padding-top: 2%;
 }
@@ -216,7 +217,7 @@ li {
   height: 100%;
 }
 
-.background-quote{
+.background-quote {
   font-size: 150%;
   font-weight: bold;
   padding-bottom: 2%;
@@ -229,9 +230,9 @@ li {
   background-color: white;
 }
 
-.about-title{
+.about-title {
   font-size: 500%;
-  color: #12372A;
+  color: #12372a;
   text-align: center;
 }
 
@@ -248,7 +249,7 @@ li {
   height: auto;
 }
 
-.about-question-highlight{
+.about-question-highlight {
   font-weight: bold;
   padding-bottom: 2%;
 }
@@ -267,9 +268,9 @@ li {
 
 /* Section: Data Collection */
 
-.data-collection-title{
+.data-collection-title {
   font-size: 500%;
-  color: #12372A;
+  color: #12372a;
   text-align: center;
 }
 
@@ -391,9 +392,9 @@ li {
   background-color: #fbfada;
 }
 
-.results-title{
+.results-title {
   font-size: 500%;
-  color: #12372A;
+  color: #12372a;
   text-align: center;
 }
 
@@ -401,7 +402,7 @@ li {
   outline: 3px solid #12372a;
   border-radius: 15px;
   width: 120%;
-  background-color: #adbc9f;
+  background-color: #12372a;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -410,7 +411,7 @@ li {
   height: 100%;
 }
 
-.result-slide img{
+.result-slide img {
   width: 100%;
   height: 100%;
 }
@@ -506,8 +507,6 @@ li {
   display: none;
 }
 
-
-
 /* Section: future */
 
 #future {
@@ -524,12 +523,12 @@ li {
   justify-content: center;
 }
 
-.future-title1{
+.future-title1 {
   font-size: 500%;
-  color: #12372A !important;
+  color: #12372a !important;
 }
 
-.future-title-block{
+.future-title-block {
   margin-left: 1em;
   display: flex;
   flex-direction: column;
@@ -540,19 +539,21 @@ li {
   color: rgb(125, 0, 0);
 }
 .future-title-big {
-  color: #12372A !important;
+  color: #12372a !important;
   margin-top: -20px;
   font-size: 500%;
 }
 
-.future-general-big-container{
+.future-general-big-container {
   display: flex;
   height: auto;
   align-items: center;
   padding-top: 1%;
 }
 
-.decomposed-slider-container, .prediction-slider-container, .future-general-container{
+.decomposed-slider-container,
+.prediction-slider-container,
+.future-general-container {
   margin: 1em;
   outline: 3px solid #151716;
   border-radius: 15px;
@@ -566,16 +567,18 @@ li {
   height: 100%;
 }
 
-.future-general-container-info{
+.future-general-container-info {
   width: 90%;
 }
 
-.future-general-container-info .dataset-source-links{
+.future-general-container-info .dataset-source-links {
   margin-left: 43px;
   margin-right: 50px;
 }
 
-.decomposed-slide img, .prediction-slide img, .future-general-container img{
+.decomposed-slide img,
+.prediction-slide img,
+.future-general-container img {
   width: 100%;
   height: 100%;
 }
@@ -584,7 +587,8 @@ li {
   font-size: 150%;
 }
 
-.future-p, .future-general-title {
+.future-p,
+.future-general-title {
   text-align: justify;
   padding-bottom: 1%;
   margin-left: 50px;
@@ -599,32 +603,31 @@ li {
   color: #12372a;
 }
 
-
 /* Section: conclusion */
 
 #conclusion {
   background-color: #fbfada;
 }
 
-#conclusion p{
+#conclusion p {
   text-align: justify;
   margin: 5em;
 }
 
-.conclusion-title{
+.conclusion-title {
   font-size: 500%;
-  color: #12372A;
+  color: #12372a;
   text-align: center;
 }
 
-.concluding-quote{
+.concluding-quote {
   background-color: #adbc9f;
   text-align: center;
   font-family: "sunflower_font", sans-serif;
   font-weight: bold;
   margin: 2em;
   font-size: 200%;
-  color:#12372A;
+  color: #12372a;
 }
 
 /* Back to Top Link Styling */
@@ -667,7 +670,7 @@ li {
   text-align: center;
 }
 
-.team-title{
+.team-title {
   font-size: 500%;
   color: white;
   text-align: center;
